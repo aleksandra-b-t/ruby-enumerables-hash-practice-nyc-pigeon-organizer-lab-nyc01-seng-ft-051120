@@ -10,4 +10,8 @@ def nyc_pigeon_organizer(data)
          pigeon_list[name][info] = []
        end
        pigeon_list[name][info].push(spec.to_s)
+     end
+   end
+ end
+ 
 end
