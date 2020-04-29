@@ -1,3 +1,4 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  new_keys << data[:gender][:male]
+  new_keys << data[:gender][:female]
 end
