@@ -1,17 +1,17 @@
 def nyc_pigeon_organizer(data)
-  pigeon_list = {}
+  pigeons = {}
   data.each do |info, value|
     value.each do |spec, names|
       names.each do |name|
-        if pigeon_list[name] == nil
-          pigeon_list[name] = {}
+        if pigeons[name] == nil
+          pigeons[name] = {}
         end
-        if pigeon_list[name][info] == nil
-          pigeon_list[name][info] = []
+        if pigeons[name][info] == nil
+          pigeons[name][info] = []
         end
-        pigeon_list[name][info].push(spec.to_s)
+        pigeons[name][info].push(spec.to_s)
       end
     end 
   end
-  pigeon_list
+  pigeons
 end
