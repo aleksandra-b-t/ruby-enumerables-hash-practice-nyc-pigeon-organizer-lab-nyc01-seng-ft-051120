@@ -4,5 +4,5 @@ def nyc_pigeon_organizer(data)
     value.each do |spec, names|
       names.each do |name|
         if pigeon_list[name] == nil 
-          pigeon_list[name] == {}
+          pigeon_list[name] = []
 end
