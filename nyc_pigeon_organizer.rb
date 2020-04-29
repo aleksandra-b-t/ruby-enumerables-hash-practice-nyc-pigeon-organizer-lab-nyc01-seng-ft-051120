@@ -5,4 +5,6 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if pigeon_list[name] == nil 
           pigeon_list[name] = []
+        end
+        
 end
